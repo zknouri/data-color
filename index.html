@@ -4,38 +4,310 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="icon" type="image/x-icon" href="./favicon.ico" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./assets/images/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./assets/images/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./assets/images/site.webmanifest" />
     <title>DataColor - Solution d'impression</title>
   </head>
   <body>
+    <!-- Header -->
     <header class="header">
       <div class="header__first">
         <!-- logo -->
-        <img
-          class="header__logo"
-          src="./assets/images/DataColor.png"
-          alt="data color logo"
-        />
+        <a href="./"
+          ><img
+            class="header__logo"
+            src="./assets/images/DataColor.png"
+            alt="data color logo"
+        /></a>
+
         <!-- nav button -->
         <button class="header__button">
           <div class="header__button-bars"></div>
           <div class="header__button-bars"></div>
           <div class="header__button-bars"></div>
         </button>
+
+        <!--Header navbar -->
+        <nav class="header__navbar1">
+          <ul class="header__navbar-ul">
+            <li class="header__navbar-li">
+              <a class="header__navbar-a" href="./">Acceuil</a>
+            </li>
+            <li class="header__navbar-li">
+              <a class="header__navbar-a" href="./#">A propos</a>
+            </li>
+            <li class="header__navbar-li">
+              <a class="header__navbar-a" href="./#">Services</a>
+            </li>
+            <li class="header__navbar-li">
+              <a class="header__navbar-a" href="./#">Contatez-nous</a>
+            </li>
+          </ul>
+        </nav>
       </div>
 
       <div>
-        <!-- navbar -->
-        <nav>
-          <ul></ul>
+        <!--Header navbar -->
+        <nav class="header__navbar">
+          <ul class="header__navbar-ul">
+            <li class="header__navbar-li">
+              <a class="header__navbar-a" href="./">Acceuil</a>
+            </li>
+            <li class="header__navbar-li">
+              <a class="header__navbar-a" href="./#">A propos</a>
+            </li>
+            <li class="header__navbar-li">
+              <a class="header__navbar-a" href="./#">Services</a>
+            </li>
+            <li class="header__navbar-li">
+              <a class="header__navbar-a" href="./#">Contatez-nous</a>
+            </li>
+          </ul>
         </nav>
       </div>
     </header>
 
-    <main>
-      <section>
-        <h1>Impression, Communication et Conception</h1>
+    <main class="main">
+      <!-- Main Section 1 -->
+      <section class="main__section1">
+        <h1 class="main__section1-h1">Imprimez le monde que vous imaginez</h1>
+      </section>
+      <!-- Main Section 2-->
+      <section class="main__section2">
+        <article class="main__section2-article">
+          <h2 class="main__section2-h2">L'Agence</h2>
+          <p class="main__section2-p">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Consectetur dolores quibusdam laudantium ipsum explicabo minus
+            mollitia repellendus minima at illo blanditiis ratione, quos rerum
+            asperiores accusamus fugiat? Nobis, quis quisquam! Lorem ipsum
+            dolor, sit amet consectetur adipisicing elit. Repellat voluptatem
+            voluptate atque nihil aliquam reprehenderit cupiditate id molestiae
+            expedita, dicta tempore exercitationem explicabo rerum, laudantium
+            autem mollitia quis repellendus quisquam.
+          </p>
+        </article>
+      </section>
+      <!-- Main Section 3 -->
+      <section class="main__section3">
+        <h2 class="main__section3-h2">Services</h2>
+        <div class="main__section3-flex">
+          <article class="main__section3-article article1-color">
+            <h3 class="main__section3-h3">Impression</h3>
+            <p class="main__section3-p">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt
+              modi officiis blanditiis. Rem labore debitis facilis praesentium.
+              Architecto laboriosam culpa debitis voluptatibus animi quo
+              dolorum, consectetur fugit omnis corporis deleniti?
+            </p>
+          </article>
+          <article class="main__section3-article article2-color">
+            <h3 class="main__section3-h3">Communication</h3>
+            <p class="main__section3-p">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Blanditiis iste minus delectus odit sapiente molestiae corporis!
+              Quibusdam amet laboriosam illum corporis laborum velit nostrum
+              officia recusandae, perspiciatis quis fugiat labore.
+            </p>
+          </article>
+          <article class="main__section3-article article3-color">
+            <h3 class="main__section3-h3">Conception</h3>
+            <p class="main__section3-p">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Doloremque debitis provident beatae, autem sequi quam assumenda
+              architecto, hic reprehenderit modi dicta. Dolore rem quasi
+              nostrum, necessitatibus dolor provident iure sint.
+            </p>
+          </article>
+        </div>
+      </section>
+      <!-- Main Section 4 -->
+      <section class="main__section4">
+        <h2 class="main__section4-h2">Références</h2>
+        <div class="main__section4-grid">
+          <figure class="main__section4-figure">
+            <img
+              class="main__section4-img"
+              src="./assets/images/ref1.jpg"
+              alt="habillage vehicule"
+            />
+            <figcaption class="main__section4-figcaption">
+              Habillage de Véhicule
+            </figcaption>
+          </figure>
+          <figure class="main__section4-figure">
+            <img
+              class="main__section4-img"
+              src="./assets/images/ref2.jpg"
+              alt="habillage vehicule"
+            />
+            <figcaption class="main__section4-figcaption">
+              Marquage Publicitaire
+            </figcaption>
+          </figure>
+          <figure class="main__section4-figure">
+            <img
+              class="main__section4-img"
+              src="./assets/images/ref3.png"
+              alt="habillage vehicule"
+            />
+            <figcaption class="main__section4-figcaption">
+              Habillage Publicitaire
+            </figcaption>
+          </figure>
+          <figure class="main__section4-figure">
+            <img
+              class="main__section4-img"
+              src="./assets/images/ref4.jpg"
+              alt="habillage vehicule"
+            />
+            <figcaption class="main__section4-figcaption">
+              Décoration de Véhicule
+            </figcaption>
+          </figure>
+          <figure class="main__section4-figure">
+            <img
+              class="main__section4-img"
+              src="./assets/images/ref5.jpg"
+              alt="habillage vehicule"
+            />
+            <figcaption class="main__section4-figcaption">
+              Publicité sur Voiture
+            </figcaption>
+          </figure>
+          <figure class="main__section4-figure">
+            <img
+              class="main__section4-img"
+              src="./assets/images/ref6.png"
+              alt="habillage vehicule"
+            />
+            <figcaption class="main__section4-figcaption">
+              Industrie Publicitaire
+            </figcaption>
+          </figure>
+        </div>
       </section>
     </main>
-    <footer></footer>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <!-- Social Links -->
+      <div class="footer__section1">
+        <a class="footer__section1-a" href="./"
+          ><img
+            class="footer__section1-img"
+            src="./assets/images/DataColor.png"
+            alt="data color logo"
+        /></a>
+        <p class="footer__section1-p">l'Excellence de l'Impression Numérique</p>
+        <ul class="footer__section1-ul">
+          <li class="footer__section1-li">
+            <a class="footer__section1-li-a" href="#"
+              ><img
+                class="footer__section1-li-img"
+                src="./assets/images/logo-facebook.svg"
+                alt="facebook logo"
+            /></a>
+          </li>
+          <li class="footer__section1-li">
+            <a class="footer__section1-a" href="#"
+              ><img
+                class="footer__section1-li-img"
+                src="./assets/images/logo-instagram.svg"
+                alt="instagram logo"
+            /></a>
+          </li>
+          <li class="footer__section1-li">
+            <a class="footer__section1-a" href="#"
+              ><img
+                class="footer__section1-li-img"
+                src="./assets/images/logo-linkedin.svg"
+                alt="linkedin logo"
+            /></a>
+          </li>
+          <li class="footer__section1-li">
+            <a class="footer__section1-a" href="#">
+              <img
+                class="footer__section1-li-img"
+                src="./assets/images/logo-youtube.svg"
+                alt="youtube logo"
+              />
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer__section2">
+        <ul class="footer__section2-ul">
+          <li class="footer__section2-li">
+            <img
+              class="footer__section2-li-img"
+              src="./assets/images/time-sharp.svg"
+              alt="youtube logo"
+            />
+            <p class="footer__section2-p">
+              <span class="footer__section2-highlight">Lundi au vendredi</span>
+              09:00 à 13:00 - 14:00 à 18:00
+              <span class="footer__section2-highlight">Samedi</span> 09:00 à
+              13:00
+              <span class="footer__section2-highlight">Dimanche</span> Fermé
+            </p>
+          </li>
+          <li class="footer__section2-li">
+            <img
+              class="footer__section2-li-img"
+              src="./assets/images/call-sharp.svg"
+              alt="instagram logo"
+            />
+            <p class="footer__section2-p">+212.808.556.526</p>
+          </li>
+          <li class="footer__section2-li">
+            <img
+              class="footer__section2-li-img"
+              src="./assets/images/phone-portrait-sharp.svg"
+              alt="linkedin logo"
+            />
+            <p class="footer__section2-p">+212.660.915.087</p>
+          </li>
+          <li class="footer__section2-li">
+            <img
+              class="footer__section2-li-img"
+              src="./assets/images/location-sharp.svg"
+              alt="facebook logo"
+            />
+            <p class="footer__section2-p">
+              Lot Al Manzah 1 N°33-35 Sidi Bernoussi Casablanca Maroc 20610
+            </p>
+          </li>
+          <li class="footer__section2-li">
+            <img
+              class="footer__section2-li-img"
+              src="./assets/images/mail-open-sharp.svg"
+              alt="youtube logo"
+            />
+            <p class="footer__section2-p">datacolor.contact@gmail.com</p>
+          </li>
+        </ul>
+      </div>
+      <div class="footer__section3">
+        <p class="footer__section3-p">&copy; 2024 DataColor. SARL AU</p>
+      </div>
+    </footer>
   </body>
 </html>
